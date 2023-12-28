@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding:0;
+
+}
+.container
+{
+    margin:0 auto;
+    max-width: 400px;
+    padding:20px;
+    text-align: center;
+
+}
+.title
+{
+    font-size: 32px;
+
+}
+.timer
+{
+    font-size: 72px;
+}
+
+button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color:white;
+    margin: 10px;
+    transition: opacity 0.2s ease-in-out;
+}
+button:hover
+{
+    opacity: 0.7;
+}
+#start
+{
+    background-color: green;
+}
+
+#stop
+{
+    background-color: red;
+}
+
+#reset
+{
+    background-color:gray;
+}
